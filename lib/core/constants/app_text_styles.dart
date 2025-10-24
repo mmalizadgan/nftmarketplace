@@ -28,4 +28,11 @@ class AppTextStyles {
     color: Colors.white,
     fontSize: 36.4.sp,
   );
+
+   static TextStyle bold25 = TextStyle(
+    fontFamily: 'SFProDisplay',
+    fontWeight: FontWeight.w700,
+    color: Colors.white,
+    fontSize: 25.23.sp,
+  );
 }
