@@ -4,6 +4,7 @@ import 'package:nftmarketplace/core/constants/app_assets.dart';
 import 'package:nftmarketplace/core/constants/app_colors.dart';
 import 'package:nftmarketplace/core/constants/app_text_styles.dart';
 import 'package:nftmarketplace/presentation/widget/frame_1.dart';
+import 'package:nftmarketplace/presentation/widget/nft_card.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -19,6 +20,7 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
@@ -33,6 +35,27 @@ class HomeScreen extends StatelessWidget {
                 frame(imagePath: AppAssets.art, tittle: "Art"),
                 SizedBox(width: 9.01.w),
                 frame(imagePath: AppAssets.music, tittle: "Music"),
+              ],
+            ),
+          ),
+          SizedBox(height: 27.03.h),
+          Padding(
+            padding: EdgeInsetsGeometry.only(left: 14.41.w, right: 170.w),
+            child: Text(
+              "Trending collections",
+              style: AppTextStyles.semiBold18,
+            ),
+          ),
+          SizedBox(height: 7.21.h,),
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                nftCard(imagePath: AppAssets.metaverse, tittle: "metaverse"),
+                 SizedBox(width: 9.01.w),
+                nftCard(imagePath: AppAssets.abstractArt, tittle: "AbstractArt"),
+                 SizedBox(width: 9.01.w),
+                nftCard(imagePath: AppAssets.portraitArt, tittle: "PortraitArt"),
               ],
             ),
           ),

@@ -30,7 +30,7 @@ class OnboardingScreen extends StatelessWidget {
                     SizedBox(height: 80.18.h),
                     Text(
                       "Welcome to NFT\nMarketplace",
-                      style: AppTextStyles.tittle,
+                      style: AppTextStyles.tittle36,
                     ),
                     SizedBox(height: 331.54.h),
                     ClipRRect(

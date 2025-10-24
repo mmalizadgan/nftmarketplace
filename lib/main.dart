@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nftmarketplace/presentation/screens/home_screen.dart';
-import 'package:nftmarketplace/presentation/screens/onboarding_screen.dart';
 
 void main() {
   runApp(ProviderScope(child: const MyApp()));
