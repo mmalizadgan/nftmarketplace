@@ -1,0 +1,20 @@
+import 'dart:ui';
+
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+class AppIcons {
+  static final SvgPicture home = SvgPicture.asset("assets/icons/Home.svg");
+  static final SvgPicture signal = SvgPicture.asset("assets/icons/Signal.svg");
+  static final SvgPicture search = SvgPicture.asset("assets/icons/Search.svg");
+    static final SvgPicture mintedButton = SvgPicture.asset(
+    "assets/icons/MintedButton.svg",
+    colorFilter: ColorFilter.mode(
+      Colors.blue,
+      BlendMode.color
+    ),
+  );
+  static final SvgPicture profile = SvgPicture.asset(
+    "assets/icons/Profile.svg",
+  );
+}

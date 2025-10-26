@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nftmarketplace/core/constants/app_assets.dart';
 import 'package:nftmarketplace/core/constants/app_colors.dart';
 import 'package:nftmarketplace/core/constants/app_text_styles.dart';
+import 'package:nftmarketplace/presentation/widget/bottom_nav_bar.dart';
 import 'package:nftmarketplace/presentation/widget/frame_1.dart';
 import 'package:nftmarketplace/presentation/widget/nft_card.dart';
 
@@ -13,6 +14,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.backgroundColor,
+      extendBody: true,
       appBar: AppBar(
         backgroundColor: AppColors.backgroundColor,
         title: Center(
@@ -21,6 +23,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
+        padding: EdgeInsets.only(bottom: 110.h),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
@@ -42,7 +45,7 @@ class HomeScreen extends StatelessWidget {
             ),
             SizedBox(height: 27.03.h),
             Padding(
-              padding: EdgeInsetsGeometry.only(left: 14.41.w, right: 170.w),
+              padding: EdgeInsets.only(left: 14.41.w, right: 170.w),
               child: Text(
                 "Trending collections",
                 style: AppTextStyles.semiBold18,
@@ -69,10 +72,10 @@ class HomeScreen extends StatelessWidget {
             ),
             SizedBox(height: 27.3.h),
             Padding(
-              padding: EdgeInsetsGeometry.only(left: 14.41.w, right: 257.66.w),
+              padding: EdgeInsets.only(left: 14.41.w, right: 257.66.w),
               child: Text("Top seller", style: AppTextStyles.semiBold18),
             ),
-            SizedBox(height: 7.21.h,),
+            SizedBox(height: 7.21.h),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
@@ -93,6 +96,7 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }
