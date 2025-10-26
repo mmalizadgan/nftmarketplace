@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:nftmarketplace/core/constants/app_assets.dart';
 import 'package:nftmarketplace/core/constants/app_text_styles.dart';
 
 Widget nftCard({required String imagePath, required String tittle}) {
@@ -24,6 +23,7 @@ Widget nftCard({required String imagePath, required String tittle}) {
             height: 139.64352416992188.h,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(19.82),
+              color: Colors.white.withValues(alpha: 0.2),
             ),
             clipBehavior: Clip.hardEdge,
             child: Image(image: AssetImage(imagePath), fit: BoxFit.cover),
@@ -37,7 +37,9 @@ Widget nftCard({required String imagePath, required String tittle}) {
             children: [
               Text(tittle, style: AppTextStyles.semibold11),
               SizedBox(width: 21.44.w),
-              Text("❤️200", style: AppTextStyles.regular9),
+              Icon(Icons.favorite, color: Colors.red, size: 11.71.sp),
+              SizedBox(width: 1.w),
+              Text("200", style: AppTextStyles.regular9),
             ],
           ),
         ),

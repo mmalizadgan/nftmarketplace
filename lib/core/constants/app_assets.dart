@@ -9,4 +9,7 @@ class AppAssets {
   static const String metaverse = "assets/images/Metaverse.jpg";
   static const String abstractArt = "assets/images/AbstractArt.jpg";
   static const String portraitArt = "assets/images/PortraitArt.jpg";
+  static const String abstractPink = "assets/images/AbstractPink.jpg";
+  static const String blueWave = "assets/images/BlueWave.jpg";
+  static const String redWave = "assets/images/RedWave.jpg";
 }
