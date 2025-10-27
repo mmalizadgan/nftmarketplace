@@ -33,7 +33,7 @@ class OnboardingScreen extends StatelessWidget {
                       "Welcome to NFT\nMarketplace",
                       style: AppTextStyles.tittle36,
                     ),
-                    SizedBox(height: 331.54.h),
+                     SizedBox(height: 265.h),
                     ClipRRect(
                       child: BackdropFilter(
                         filter: ImageFilter.blur(sigmaX: 27.3, sigmaY: 27.3),
