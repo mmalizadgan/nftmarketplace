@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nftmarketplace/core/constants/app_assets.dart';
 import 'package:nftmarketplace/core/constants/app_text_styles.dart';
+import 'package:nftmarketplace/presentation/screens/home_screen.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
@@ -86,7 +87,9 @@ class OnboardingScreen extends StatelessWidget {
                                       ),
                                     ),
                                     child: ElevatedButton(
-                                      onPressed: () {},
+                                      onPressed: () {
+                                        Navigator.push(context, MaterialPageRoute(builder:(context) => HomeScreen(), ) );
+                                      },
                                       style: ElevatedButton.styleFrom(
                                         backgroundColor: Colors.transparent,
                                         shadowColor: Colors.transparent,

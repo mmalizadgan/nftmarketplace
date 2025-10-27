@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nftmarketplace/core/constants/app_colors.dart';
 import 'package:nftmarketplace/core/constants/app_icons.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({super.key});
@@ -37,13 +38,13 @@ class BottomNavBar extends StatelessWidget {
                   children: [
                     SizedBox(width: 19.82.w),
                     AppIcons.home,
-                    SizedBox(width: 28.29.w,),
+                    SizedBox(width: 28.29.w),
                     AppIcons.signal,
                     SizedBox(width: 95.77.w),
                     AppIcons.search,
-                    SizedBox(width: 28.74.w,),
+                    SizedBox(width: 28.74.w),
                     AppIcons.profile,
-                    SizedBox(width: 19.82.w,),
+                    SizedBox(width: 19.82.w),
                   ],
                 ),
               ),
