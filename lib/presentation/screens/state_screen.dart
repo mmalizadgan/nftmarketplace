@@ -12,21 +12,35 @@ class StateScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.backgroundColor,
       appBar: AppBar(
-        title: Center(child: Text("Stats", style: AppTextStyles.semiBold18)),
+        title: Text("Stats", style: AppTextStyles.semiBold18),
         backgroundColor: AppColors.backgroundColor,
         automaticallyImplyLeading: false,
         elevation: 0,
-        leading: Positioned(
-          top: 49.55.h,
-          left: 315.32.w,
-          right: 114.41.w,
-          child: SizedBox(
-            width: 21.62.w,
-            height: 21.62.h,
+        centerTitle: true,
+        actions: [
+          SizedBox(
+            width: 18.02.w, 
+            height: 18.02.h,
             child: AppIcons.moreButton,
           ),
-        ),
+          SizedBox(width: 14.41.w), 
+        ],
+        
       ),
+      body: Column(children: [
+        SizedBox(height: 18.92.h,),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            AppIcons.ranking,
+            SizedBox(width: 24.33.w,),
+            AppIcons.activity,
+          ],
+        )
+
+
+
+      ],),
     );
   }
 }

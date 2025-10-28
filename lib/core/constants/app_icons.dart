@@ -9,10 +9,14 @@ class AppIcons {
   static final SvgPicture mintedButton = SvgPicture.asset(
     "assets/icons/MintedButton.svg",
   );
-  static final SvgPicture profile = SvgPicture.asset(
-    "assets/icons/Profile.svg",
-  );
+  static final SvgPicture profile = SvgPicture.asset("assets/icons/Profile");
   static final SvgPicture moreButton = SvgPicture.asset(
-    "assets/icons/MoreButton.svg", 
+    "assets/icons/MoreButton.svg",
+  );
+  static final SvgPicture activity = SvgPicture.asset(
+    "assets/icons/Activity.svg",
+  );
+  static final SvgPicture ranking = SvgPicture.asset(
+    "assets/icons/Ranking.svg",
   );
 }
