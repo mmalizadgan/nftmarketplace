@@ -4,8 +4,8 @@ import 'package:nftmarketplace/core/constants/app_assets.dart';
 import 'package:nftmarketplace/core/constants/app_colors.dart';
 import 'package:nftmarketplace/core/constants/app_text_styles.dart';
 import 'package:nftmarketplace/presentation/widget/bottom_nav_bar.dart';
-import 'package:nftmarketplace/presentation/widget/frame_1.dart';
-import 'package:nftmarketplace/presentation/widget/nft_card.dart';
+import 'package:nftmarketplace/presentation/widget/onboarding_widget/frame_1.dart';
+import 'package:nftmarketplace/presentation/widget/onboarding_widget/nft_card.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

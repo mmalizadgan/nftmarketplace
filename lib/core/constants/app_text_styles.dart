@@ -14,6 +14,12 @@ class AppTextStyles {
     color: Colors.white,
     fontSize: 9.91.sp,
   );
+   static TextStyle regular13 = TextStyle(
+    fontFamily: 'SFProText',
+    fontWeight: FontWeight.w400,
+    color: Colors.white,
+    fontSize: 13.51.sp,
+  );
   static TextStyle semibold11 = TextStyle(
     fontFamily: 'SFProText',
     fontWeight: FontWeight.w600,
