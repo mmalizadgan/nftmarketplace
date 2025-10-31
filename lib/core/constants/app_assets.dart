@@ -12,4 +12,14 @@ class AppAssets {
   static const String abstractPink = "assets/images/AbstractPink.jpg";
   static const String blueWave = "assets/images/BlueWave.jpg";
   static const String redWave = "assets/images/RedWave.jpg";
+  static const String azumi = "assets/images/Azumi.jpg";
+  static const String hapePrime = "assets/images/HapePrime.jpg";
+  static const String cryoto = "assets/images/Cryoto.jpg";
+  static const String apeClub = "assets/images/ApeClub.jpg";
+  static const String bat = "assets/images/Bat.jpg";
+  static const String mutant = "assets/images/Mutant.jpg";
+  static const String metaverse1 = "assets/images/Metaverse1.jpg";
+  static const String mountain = "assets/images/Mountain.jpg";
+  static const String mutantApe = "assets/images/MutantApe.jpg";
+  static const String theSandbox = "assets/images/TheSandbox.jpg";
 }

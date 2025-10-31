@@ -14,7 +14,7 @@ class AppIcons {
     "assets/icons/MintedButton.svg",
   );
   static final SvgPicture profile = SvgPicture.asset(
-    "assets/icons/Profile"
+    "assets/icons/Profile.svg"
     );
   static final SvgPicture moreButton = SvgPicture.asset(
     "assets/icons/MoreButton.svg",
