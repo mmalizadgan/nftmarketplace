@@ -43,6 +43,7 @@ class BottomNavBar extends StatelessWidget {
                     AppIcons.search,
                     SizedBox(width: 28.74.w),
                     AppIcons.profile,
+                    AppIcons.profile,
                     SizedBox(width: 19.82.w),
                   ],
                 ),
