@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nftmarketplace/core/constants/app_colors.dart';
 import 'package:nftmarketplace/core/constants/app_icons.dart';
+import 'package:nftmarketplace/presentation/screens/home_screen.dart';
+import 'package:nftmarketplace/presentation/screens/state_screen.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({super.key});
@@ -36,9 +38,27 @@ class BottomNavBar extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     SizedBox(width: 19.82.w),
-                    AppIcons.home,
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                        );
+                      },
+                      child: AppIcons.home,
+                    ),
                     SizedBox(width: 28.29.w),
-                    AppIcons.signal,
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => StateScreen(),
+                          ),
+                        );
+                      },
+                      child: AppIcons.signal,
+                    ),
                     SizedBox(width: 95.77.w),
                     AppIcons.search,
                     SizedBox(width: 28.74.w),
