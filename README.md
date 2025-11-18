@@ -1,17 +1,24 @@
-# nftmarketplace
+🖼️ NFT Marketplace (Practice Project)
 
-A new Flutter project.
+A practice project for building a simple, modern NFT Marketplace.
+The project is not fully complete yet, and is being developed step-by-step — the main goal is learning, experimenting, and building a clean, scalable structure.
 
-## Getting Started
+✨ Features (Work in Progress)
 
-This project is a starting point for a Flutter application.
+NFT listing page
 
-A few resources to get you started if this is your first Flutter project:
+NFT details page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Modern, minimal UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-test commit for github
+Scalable project structure
+
+🎯 Purpose
+
+This project is mainly for practice, improving skills, and creating a decent portfolio piece.
+More features like buy/sell, filters, and Web3 wallet integration will be added over time.
+
+🚀 Current Status
+
+🔧 Work in Progress…
+Updates will be added as new parts are completed.
